@@ -102,6 +102,7 @@ Data feeds, market data APIs, and tools that structure financial data for agents
 - [EODHD MCP Server](https://github.com/EodHistoricalData/EODHD-MCP-Server) ![Stars](https://img.shields.io/github/stars/EodHistoricalData/EODHD-MCP-Server?style=flat-square) - Provides 75 read-only tools covering historical prices, fundamentals, and technical indicators with 100+ embedded documentation resources.
 - [finance-trading-ai-agents-mcp](https://github.com/aitrados/finance-trading-ai-agents-mcp) ![Stars](https://img.shields.io/github/stars/aitrados/finance-trading-ai-agents-mcp?style=flat-square) - Full financial MCP server with departmental architecture. Includes broker integration for order placement.
 - [mcp_massive](https://github.com/massive-com/mcp_massive) ![Stars](https://img.shields.io/github/stars/massive-com/mcp_massive?style=flat-square) - Massive.com financial data via MCP. Four composable tools (search, docs, call, query) with in-memory DataFrames and SQL.
+- [OKX Agent Trade Kit](https://github.com/okx/agent-trade-kit) ![Stars](https://img.shields.io/github/stars/okx/agent-trade-kit?style=flat-square) - OKX's official exchange-native MCP toolkit — covers spot, perpetuals, options, and grid bots; API credentials are stored locally and never passed to the LLM.
 
 ## Backtesting & Evaluation
 
@@ -135,6 +136,8 @@ Academic work on LLM agents in trading.
 - [LLM Agents Do Not Replicate Human Market Traders](https://arxiv.org/abs/2502.15800) - Experimental finance study. LLM agents behave erratically in endogenous markets, failing to produce human-like trading dynamics. *arXiv 2025*
 - [Trading-R1: Financial Trading with LLM Reasoning via RL](https://arxiv.org/abs/2509.11420) - Reasoning LLM for trading using SFT + RL curriculum. Structured thesis generation with volatility-adjusted rewards. *arXiv 2025*
 - [TradeTrap: Are LLM-based Trading Agents Truly Reliable?](https://arxiv.org/abs/2512.02261) - Red-teaming framework that stress-tests trading agents across data poisoning, prompt injection, and state manipulation. *arXiv 2025*
+- [AI Agents in Financial Markets: Architecture, Applications, and Systemic Implications](https://arxiv.org/abs/2603.13942) - Proposes a four-layer architecture for agentic finance (data perception, reasoning, strategy, execution) and a market model linking agent autonomy and heterogeneity to systemic risk outcomes. *arXiv 2026*
+- [Be Water: An Evolutionary Proof for Trend-Following](https://arxiv.org/abs/2603.29593) - 10,000-agent simulation finds trend-following dominates mean-reversion evolutionarily; builds an LLM-driven system to operationalize the winning strategy for real investors. *arXiv 2026*
 
 ## Related Awesome Lists
 
